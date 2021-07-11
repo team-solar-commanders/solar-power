@@ -3,7 +3,6 @@ body {
   padding: 0px;
   box-sizing: border-box;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: rgb(27, 37, 37);
 }
 
 .header1 {
@@ -42,6 +41,7 @@ table {
 table, th {
   border: solid 2px black;
   color: white;
+  background-color: rgba(0, 0, 0, 0.733);
 }
 
 td {
