@@ -3,6 +3,7 @@ body {
   padding: 0px;
   box-sizing: border-box;
 }
+
 @import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap");
 * {
   box-sizing: border-box;
@@ -122,4 +123,27 @@ ul li a {
 }
 .info span {
   color: #1a1a1a;
+
+
+.tutp {
+  font-size: larger;
+  font-weight: bold;
+  text-align: justify;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.tutimg {
+  margin-left: 30%;
+  width: 600px;
+  height: 500px;
+}
+h1 {
+  text-align: center;
+}
+table,
+th {
+  border: solid 2px black;
+}
+td {
+  border: solid 1px black;
+
 }
