@@ -1,3 +1,12 @@
+
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
+
+
+
+
+
 body {
   margin: 0px;
   padding: 0px;
@@ -5,11 +14,7 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap");
-body {
-  margin: 0;
-  padding: 0;
-}
+
 
 #DevImgSection {
   margin: 0 auto;
@@ -289,4 +294,59 @@ td {
 }
 .aboutusinfo {
   font-size: 25px;
+}
+
+
+
+
+#new{
+  
+  position:absolute;
+  margin-right: 10%;
+ margin-left: 10%;
+ 
+}
+
+.nam{
+  /* font-family: 'Zen Tokyo Zoo', cursive; */
+  font-family: 'Staatliches', cursive;
+  text-align:center;
+  display:inline-block;
+  list-style:none;
+  position:relative;
+  border:solid 12px #fff;
+  background:rgb(255, 255, 255);
+  box-shadow:0 0 15px 0px rgb(40, 22, 197);
+  transition:all 1s ease;
+  -o-transition:all 1s ease;
+  -moz-transition:all 1s ease;
+  -webkit-transition:all 1s ease;
+  top:50px;
+  border-radius: 8px;
+
+}
+
+
+.nam:hover{
+  top:0px;
+  opacity:0.5;
+}
+
+
+.par{
+  margin:-15px 0 0 0;
+  font-size: 20px;
+}
+
+.light{
+  border-radius:50%;
+  position:absolute;
+  left:0;
+  right:0;
+  width:700px;
+  height:700px;
+  background:#fff;
+  filter:blur(100px);
+  opacity:0.3;
+  pointer-events:none;
 }
