@@ -6,16 +6,11 @@
  }
 
  .header1 {
-   color: rgb(0, 0, 0);
+   color: #89b758;
    text-align: center;
-   color: rgb(0, 0, 0);
-   font-size: 4em;
+   font-size: 3em;
    transition: 0.2s;
    font-family: Arial, Helvetica, sans-serif;
- }
-
- .header1:hover {
-   text-shadow: 0 3px 0 rgb(3, 3, 3), 0 2px 0 rgb(2, 2, 2), 0 2px 5px rgba(0, 0, 0, 0.5);
  }
 
  .par-tut {
@@ -38,27 +33,34 @@
    padding: 8px;
    box-shadow: 10px 10px 10px black;
  }
- table {
+
+ #table-tut caption {
+   font-weight: bolder;
+   font-size: 25px;
+   margin-bottom: 3px;
+ }
+
+ #table-tut {
    margin-left: 40px;
  }
 
- table, th {
+ #table-tut, th {
    border: solid 2px black;
    color: rgb(0, 0, 0);
  }
 
  td {
    border: solid 1px black;
- }
-
- .header-2 {
+   font-size: 16px;
    text-align: center;
+   font-weight: bold;
  }
 
  .header-2 {
-   font-size: 20px;
+   font-size: 35px;
    text-align: left;
    text-transform: capitalize;
+   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
  }
 
  .service-box {
@@ -166,61 +168,113 @@
  .container {
    display: block;
    /* background-color: darkred; */
-   margin-left: 10p;
+   margin-left: -10px;
  }
 
-.body-tut {
+ .body-tut {
+   padding: 20px;
+   font-family: Arial;
+ }
+
+ /* Center website */
+
+ .main {
+   max-width: 1000px;
+   margin: auto;
+ }
+
+ .row {
+   margin: 10px -16px;
+ }
+
+ /* Add padding BETWEEN each column */
+
+ .row, .row>.column {
+   padding: 8px;
+   width: 100%;
+   border-radius: 5px;
+ }
+
+ /* Create four equal columns that floats next to each other */
+
+ .column {
+   float: left;
+   width: 25%;
+ }
+
+ /* Clear floats after rows */
+
+ .row:after {
+   content: "";
+   display: table;
+   clear: both;
+ }
+
+ /* Content */
+
+ .content {
+   background-color: white;
+   padding: 10px;
+   border: 2px solid black;
+ }
+
+ /* Responsive layout - makes a two column-layout instead of four columns */
+
+ @media screen and (max-width: 900px) {
+   .column {
+     width: 50%;
+   }
+ }
+
+ /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+
+ @media screen and (max-width: 600px) {
+   .column {
+     width: 100%;
+   }
+ }
+
+ #hrInFooter {
+   color: white;
+ }
+
+ #imageLogoBottom {
+   height: 180px;
+ }
+
+ #hrLineRight {
+   position: absolute;
+   right: 0;
+   width: 42%;
+   margin-top: -80px;
+ }
+
+ #hrLineleft {
+   position: absolute;
+   left: 0;
+   width: 42%;
+   margin-top: -80px;
+ }
+ #Links {
+  display: block;
+  padding: 5px;
+  text-align: center;
+}
+#Links a {
+  margin-left: 15px;
+  margin-right: 15px;
+  text-decoration: none;
+  color:white;
+  font-size: larger;
+}
+.fa {
   padding: 20px;
-  font-family: Arial;
+  font-size: 30px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
 }
-
-/* Center website */
-.main {
-  max-width: 1000px;
-  margin: auto;
-}
-.row {
-  margin: 10px -16px;
-}
-
-/* Add padding BETWEEN each column */
-.row,
-.row > .column {
-  padding: 8px;
-  width: 100%;
-  border-radius: 5px;
-}
-
-/* Create four equal columns that floats next to each other */
-.column {
-  float: left;
-  width: 25%;
-}
-
-/* Clear floats after rows */ 
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Content */
-.content {
-  background-color: white;
-  padding: 10px;
-  border: 2px solid black;
-}
-
-/* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 900px) {
-  .column {
-    width: 50%;
-  }
-}
-
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .column {
-    width: 100%;
-  }
+.fa:hover {
+  opacity: 0.7;
 }
