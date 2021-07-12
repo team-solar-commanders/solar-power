@@ -13,7 +13,7 @@ body {
 
 #DevImgSection {
   margin: 0 auto;
-  margin-top: 20px;
+  margin-top: 30px;
   width: 75%;
 }
 
@@ -272,8 +272,21 @@ td {
   transform: rotateX(0);
 }
 
-.container-tut{
+.container-tut {
   display: block;
   /* background-color: darkred; */
   margin-left: 10p;
+}
+#aboutUs-info {
+  margin-left: 20px;
+  margin-top: 20px;
+  text-align: left;
+}
+.aboutustitle {
+  font-size: 30px;
+  text-align: left;
+  font-weight: bold;
+}
+.aboutusinfo {
+  font-size: 25px;
 }
