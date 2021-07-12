@@ -1,6 +1,8 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Acme&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
 body {
   margin: 0px;
   padding: 0px;
@@ -90,24 +92,24 @@ ul li {
   transition: transform 0.3s ease-out, opacity 0.3s ease-out;
 }
 
-.container:hover>ul>li>a {
+.container:hover > ul > li > a {
   opacity: 1;
   transform: translateY(0);
 }
 
-.container:hover>ul>li:nth-child(2) a {
+.container:hover > ul > li:nth-child(2) a {
   transition-delay: 0.1s;
 }
 
-.container:hover>ul>li:nth-child(3) a {
+.container:hover > ul > li:nth-child(3) a {
   transition-delay: 0.2s;
 }
 
-.container:hover>ul>li:nth-child(4) a {
+.container:hover > ul > li:nth-child(4) a {
   transition-delay: 0.3s;
 }
 
-.container:hover>ul>li:nth-child(5) a {
+.container:hover > ul > li:nth-child(5) a {
   transition-delay: 0.4s;
 }
 
@@ -153,14 +155,13 @@ ul li {
 }
 
 #new {
-  /* position:absolute; */
-  margin-right: 10%;
-  margin-left: 10%;
+  text-align: center;
 }
 
 .nam {
-  /* font-family: 'Zen Tokyo Zoo', cursive; */
-  font-family: 'Staatliches', cursive;
+  /* font-family: "Staatliches", cursive; */
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
   text-align: center;
   display: inline-block;
   list-style: none;
@@ -183,7 +184,8 @@ ul li {
 
 .par {
   margin: -15px 0 0 0;
-  font-size: 20px;
+  font-size: 25px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .light {
@@ -197,4 +199,51 @@ ul li {
   filter: blur(100px);
   opacity: 0.3;
   pointer-events: none;
+}
+#imageLogoBottom {
+  height: 180px;
+}
+#hrInFooter {
+  color: white;
+}
+#slideImagesDiv {
+  margin-bottom: 90px;
+}
+#titleMainPage {
+  display: inline;
+  position: absolute;
+  font-size: 60px;
+  left: 40%;
+  margin-top: 60px;
+  color: rgb(255, 255, 255);
+}
+#Bod {
+  background-color: #89b758;
+}
+/* #repeatedImg {
+  position: relative;
+  width: 900px;
+  height: 15px;
+} */
+/* #hrLineleft {
+  background-image: url("imgs/hr-img.png");
+  background-repeat: repeat;
+  margin-top: 20px;
+  float: left;
+  width: 30%;
+
+*/
+#hrLineRight {
+  /* background-image: url("imgs/hr-img.png"); */
+  /* background-repeat: repeat; */
+  position: absolute;
+  right: 0;
+  width: 42%;
+  margin-top: -80px;
+}
+#hrLineleft {
+  position: absolute;
+  left: 0;
+  width: 42%;
+  margin-top: -80px;
 }
