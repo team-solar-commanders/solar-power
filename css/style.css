@@ -1,4 +1,12 @@
 body {
+
+
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+p {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
@@ -133,6 +141,26 @@ ul li {
   font-weight: bold;
   text-align: justify;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+img {
+  margin-left: 30%;
+  width: 600px;
+  height: 500px;
+}
+h1 {
+  text-align: center;
+}
+table,
+th {
+  border: solid 2px black;
+}
+td {
+  border: solid 1px black;
+
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+
   margin-left: 7px;
   margin-right: 10px ;
   background-color: rgba(0, 0, 0, 0.473);
