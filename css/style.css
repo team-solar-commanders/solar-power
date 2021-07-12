@@ -2,7 +2,7 @@ body {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 @import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap");
@@ -120,7 +120,6 @@ ul li {
 .info span {
   color: #1a1a1a;
 }
-.tutp {
 .header1 {
   font-size: 40px;
   color: white;
@@ -132,7 +131,7 @@ ul li {
   text-align: justify;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   margin-left: 7px;
-  margin-right: 10px ;
+  margin-right: 10px;
   background-color: rgba(0, 0, 0, 0.473);
   color: white;
 }
@@ -152,9 +151,10 @@ h1 {
   text-align: center;
 }
 table {
- margin-left: 40px;
+  margin-left: 40px;
 }
-table, th {
+table,
+th {
   border: solid 2px black;
   color: white;
   background-color: rgba(0, 0, 0, 0.733);
@@ -190,7 +190,7 @@ td {
   height: 100%;
   padding: 20px;
   text-align: center;
-  transition: all .5s ease;
+  transition: all 0.5s ease;
 }
 
 .service-content {
@@ -202,8 +202,8 @@ td {
   width: 100%;
   height: 100%;
   padding: 2px;
-  text-align:center;
-  transition: all .2s ease;
+  text-align: center;
+  transition: all 0.2s ease;
   color: black;
   backface-visibility: hidden;
   transform-style: preserve-3d;
@@ -225,7 +225,7 @@ td {
   transform: translateY(-50%);
   color: black;
   font-weight: bolder;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /* kas */
@@ -240,11 +240,10 @@ td {
   font-size: 20px;
   color: #ddd9d9;
   margin: 0;
-
 }
 
 .yellow {
-  background-image: url('../imgs/plates.jpg');
+  background-image: url("../imgs/plates.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
@@ -272,7 +271,7 @@ td {
   -o-transform: rotateX(0);
   transform: rotateX(0);
 }
-.container{
+.container {
   display: block;
   /* background-color: darkred; */
   margin-left: 10p;
