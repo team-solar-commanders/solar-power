@@ -3,7 +3,7 @@
 const reatingForm = document.getElementById("Form");
 const orders = document.getElementById("orders");
 
-let rate = 0;
+// let rate = 0;
 
 function Star(name, prefctuerName, rview) {
   this.name = name;
@@ -57,18 +57,18 @@ function handleClick(event) {
 
 // submitRate();
 
-// function startRating(){
-// 	rate=item.id[0];
-// 	sessionStorage.star = rate;
-// 	for(var i=0;i<5;i++){
-// 		if(i<rate){
-// 			document.getElementById((i+1)).style.color="yellow";
-// 		}
-// 		else{
-// 			document.getElementById((i+1)).style.color="white";
-// 		}
-// 	}
-// }
+function startRating(){
+	rate=item.id[0];
+	sessionStorage.star = rate;
+	for(var i=0;i<5;i++){
+		if(i<rate){
+			document.getElementById((i+1)).style.color="yellow";
+		}
+		else{
+			document.getElementById((i+1)).style.color="white";
+		}
+	}
+}
 
 function saveToLs() {
   const convertedArr = JSON.stringify(Star.globalarr);
@@ -89,18 +89,12 @@ function getFromLs() {
 }
 
 function renderOrders() {
-  let input = document.createElement("li");
-  //   orders.textContent = '';
+ 
+    orders.textContent = '';
 
   for (let i = 0; i < Star.globalarr.length; i++) {
-    //     // const drinkLI = document.createElement('li');
-    //     // let temp;
-    //     // if(Coffee.drinks[i].isHot === 'on'){
-    //     //   temp = 'cold';
-    //     // } else{
-    //     //   temp = 'hot';
-    //     // }
-    //     // orders.appendChild(input);
+    let input = document.createElement("li");
+     orders.appendChild(input);
     input.textContent = `${Star.globalarr[i].name}  ${Star.globalarr[i].prefctuerName} ${Star.globalarr[i].rview} ${Star.globalarr[i].rate} `;
   }
 }
