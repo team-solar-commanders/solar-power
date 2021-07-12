@@ -27,23 +27,32 @@
             </ul>
         </nav>
     </header>
+    <div id="second">
+        <img src="/imgs/2.jpg" alt="">
+
+        <div id="new"> Calculate your next PV system
+            <br>and go Green.
+        </div>
+    </div>
     <main>
-        <div id="new"> To calculate your next PV system </div>
         <div id="all">
             <div id="card">INSTRUCTIONS AND INFORMATIONS</div>
-            <div id="card1"> <span class="fill-bottom-right">The main target of using PV panels is to have a sustainable system with a greate cost
-                effectiveness. So, The benefits of using ON GRID system is to have a continuous power supply and it is
-                easy to install The below function calculation is based on the country of Jordan (the average sun hours
-                per month)
-                To get started with this form, you need to look at your lastest electric bill and pick the
-                amount of the kilowatts.hour.
-                Write the amount of kilowatts in the below box </span>
+            <div id="card1"> <span class="fill-bottom-right">The main target of using PV panels is to have a sustainable
+                    system with a greate cost
+                    effectiveness. So, The benefits of using ON GRID system is to have a continuous power supply and it
+                    is
+                    easy to install The below function calculation is based on the country of Jordan (the average sun
+                    hours
+                    per month)
+                    To get started with this form, you need to look at your lastest electric bill and pick the
+                    amount of the kilowatts.hour.
+                    Write the amount of kilowatts in the below box </span>
             </div>
-            <h1>Calculation Form</h1>
+            <h1>Calculation Forms</h1>
             <form id="solarForm">
                 <fieldset>
                     <legend>Watts Calculation</legend>
-                    <label for="numberOfWatt">The amount of usage KW</label>
+                    <label for="numberOfWatt">The amount of usage KW per month</label>
                     <input type="number" onfocus="this.value=''" id="numberOfWatt" step="any">
                     <!-- <input type="submit" value="submit"> -->
                     <input type="submit" value="submit">
@@ -53,6 +62,21 @@
             <div id="result">
 
             </div>
+            <!-- =========================================== -->
+            <section id="newPrice">
+                <form id="bestPrice">
+                    <fieldset>
+                        <legend>Calculation based on your budget</legend>
+                        <label for="yourAmount">Your budget in Jordanian Dinar</label>
+                        <input type="number" onfocus="this.value=''" id="yourAmount" step="any">
+                        <!-- <input type="submit" value="submit"> -->
+                        <input type="submit" value="submit">
+
+                    </fieldset>
+                </form>
+                <div id="result1"></div>
+
+            </section>
     </main>
     <footer>
         <p> &copy;&nbspDesigned By: Solar Power Team</p>

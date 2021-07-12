@@ -1,4 +1,26 @@
 
+#newPrice{
+    position: absolute;
+    top:139.3% ;
+    margin-left: 45%;
+    margin-top: 36.5%;
+
+}
+
+#result1{
+    color: black;
+    border-style: inset ;
+    background-color: rgb(255, 255, 255);
+    margin-block: 40PX;
+    text-align: center;
+    font-weight: bolder;
+    opacity: 0.8;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-radius: 20%;
+    margin-right: 55%;
+
+}
 
 form {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -27,6 +49,8 @@ input {
 }
 
 #result {
+    color: black;
+    border-style: inset ;
     background-color: rgb(255, 255, 255);
     margin-block: 40PX;
     margin-right: 700px;
@@ -69,7 +93,7 @@ main h1 {
 }
 
 body {
-    background-image: url(../imgs/2.jpg);
+    /* background-image: url(../imgs/2.jpg); */
 }
 
 #card {
@@ -83,11 +107,11 @@ body {
 
 #new {
     font-size: 60px;
-    margin-top: 50px;
-    margin-left: 100px;
-    margin-bottom: 50px;
+    margin-top: -680px;
+    margin-left: 180px;
+    margin-bottom: 560px;
     text-shadow: 2px 2px 4px #000000;
-    color: rgb(253, 122, 0);
+    color: rgb(250, 123, 4);
 }
 
 span {
@@ -127,7 +151,7 @@ span {
 
 .fill-bottom-right:focus, .fill-bottom-right:hover {
     outline: 0;
-    color: #040b63;
+    color: #200077;
     -webkit-transition: color 1s ease;
     transition: color 1s ease;
     cursor: pointer
@@ -143,7 +167,7 @@ span {
 
 .fill-bottom-right:focus:after, .fill-bottom-right:focus:before, .fill-bottom-right:hover:after, .fill-bottom-right:hover:before {
     outline: 0;
-    background-color: #f9fffa;
+    background-color: #1302fc;
     -webkit-transition: all 1s ease 0s;
     -moz-transition: all 1s ease 0s;
     -ms-transition: all 1s ease 0s;
@@ -154,7 +178,7 @@ span {
 .fill-bottom-right:before {
     width: 3px;
     height: 3px;
-    bottom: 100px;
+    bottom: 84px;
     left: 180px;
     margin: auto;
     border-radius: 5%
@@ -166,9 +190,15 @@ span {
 }
 
 .fill-bottom-right:hover {
-    color: #073b70!important
+    color: #025bb4!important
 }
 body{
+    background-color: cornsilk;
     margin: 0%;
     padding: 0%;
+}
+
+#second img{
+    padding-top: 0%;
+    margin-top: -0.4%;
 }
