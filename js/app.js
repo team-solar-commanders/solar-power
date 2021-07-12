@@ -3,9 +3,10 @@
 
 
 let solArr = [];
-function Solar(location, numberOfWatt) {
+function Solar(location, numberOfWatt, yourAmount) {
     this.location = location;
     this.numberOfWatt = numberOfWatt;
+    this.yourAmount = yourAmount;
     solArr.push(this);
 
 }
@@ -46,4 +47,25 @@ function handleSubmit(event) {
     }
 
 }
+let bestPrice = document.getElementById('bestPrice');
+bestPrice.addEventListener('submit', handleSubmit1);
 
+function handleSubmit1(e){
+    e.preventDefault();
+    let bestPrice = e.target.yourAmount.value;
+    this.bestPrice = parseInt(bestPrice);
+    console.log(bestPrice);
+
+    // n : is the amount of kwatts based on the amount of money
+
+    let n = bestPrice/850;
+    let dv1 = document.getElementById('result1');
+    dv1.textContent = "";
+    if (n > 3.60){
+    dv1.textContent = ("Based on your budget we can install a system with " + Math.round(n*100.0)/100.0 + " Kwatts to your facility.");
+    }else{
+    dv1.textContent = ("Based on your budget we can't install a system since it is below the legal size.");
+
+    }
+
+}
