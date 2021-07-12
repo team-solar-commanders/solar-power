@@ -1,20 +1,12 @@
-
 @import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
-
-
-
-
-
 body {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-
-
 
 #DevImgSection {
   margin: 0 auto;
@@ -34,9 +26,11 @@ body {
   box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.3);
   transition: 0.3s ease-out;
 }
+
 .container:hover {
   box-shadow: 0px 1px 35px 0px rgba(0, 0, 0, 0.3);
 }
+
 .container .image {
   background: #000;
   position: absolute;
@@ -47,21 +41,26 @@ body {
   z-index: 2;
   transition: transform 0.3s ease-out;
 }
+
 .container:hover .image {
   transform: translateY(-100px);
 }
+
 .image img {
   height: 100%;
   width: 100%;
   object-fit: cover;
   transition: opacity 0.3s ease-out;
 }
+
 .container:hover .image img {
   opacity: 0.7;
 }
+
 .container:hover .image {
   transform: translateY(-100px);
 }
+
 .container ul {
   display: flex;
   position: absolute;
@@ -71,10 +70,12 @@ body {
   z-index: 3;
   list-style: none;
 }
+
 ul li {
   margin: 0 5px;
   text-align: center;
 }
+
 .linksA {
   display: block;
   height: 50px;
@@ -88,28 +89,35 @@ ul li {
   background: rgb(255, 255, 255);
   transition: transform 0.3s ease-out, opacity 0.3s ease-out;
 }
-.container:hover > ul > li > a {
+
+.container:hover>ul>li>a {
   opacity: 1;
   transform: translateY(0);
 }
-.container:hover > ul > li:nth-child(2) a {
+
+.container:hover>ul>li:nth-child(2) a {
   transition-delay: 0.1s;
 }
-.container:hover > ul > li:nth-child(3) a {
+
+.container:hover>ul>li:nth-child(3) a {
   transition-delay: 0.2s;
 }
-.container:hover > ul > li:nth-child(4) a {
+
+.container:hover>ul>li:nth-child(4) a {
   transition-delay: 0.3s;
 }
-.container:hover > ul > li:nth-child(5) a {
+
+.container:hover>ul>li:nth-child(5) a {
   transition-delay: 0.4s;
 }
+
 .container .content {
   position: relative;
   width: 100%;
   height: 100%;
   background: #fff;
 }
+
 .info {
   position: absolute;
   bottom: 20px;
@@ -118,298 +126,75 @@ ul li {
   color: #000;
   line-height: 26px;
 }
+
 .info h2 {
   font-size: 27px;
   margin: 3px 0;
 }
+
 .info span {
   color: #1a1a1a;
 }
-.header1 {
-  font-size: 40px;
-  color: white;
-}
 
-.par-tut {
-  font-size: larger;
-  font-weight: bold;
-  text-align: justify;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  margin-left: 7px;
-  margin-right: 10px;
-  background-color: rgba(0, 0, 0, 0.473);
-  color: white;
-}
-
-.imgtut {
-  margin-left: 27%;
-  width: 600px;
-  height: 500px;
-  border: solid 2px rgb(167, 152, 152);
-  display: block;
-  background: transparent;
-  padding: 8px;
-  box-shadow: 10px 10px 10px black;
-}
-
-h1 {
-  text-align: center;
-}
-table {
-  margin-left: 40px;
-}
-table,
-th {
-  border: solid 2px black;
-  color: white;
-  background-color: rgba(0, 0, 0, 0.733);
-}
-
-td {
-  border: solid 1px black;
-}
-
-.header-2 {
-  text-align: center;
-}
-
-.header-2 {
-  font-size: 30px;
-  text-align: center;
-  text-transform: capitalize;
-}
-
-.service-box {
-  position: relative;
-  overflow: hidden;
-  margin-bottom: 5px;
-  perspective: 2000px;
-  -webkit-perspective: 2000px;
-  width: 1200px;
-  height: 500px;
-  margin-left: 80px;
-}
-
-.service-icon {
-  width: 100%;
-  height: 100%;
-  padding: 20px;
-  text-align: center;
-  transition: all 0.5s ease;
-}
-
-.service-content {
-  position: absolute;
-  top: 0;
-  right: 0;
-  z-index: 0;
-  opacity: 0;
-  width: 100%;
-  height: 100%;
-  padding: 2px;
-  text-align: center;
-  transition: all 0.2s ease;
-  color: black;
-  backface-visibility: hidden;
-  transform-style: preserve-3d;
-  -webkit-transform: translateY(110px) rotateX(-90deg);
-  -moz-transform: translateY(110px) rotateX(-90deg);
-  -ms-transform: translateY(110px) rotateX(-90deg);
-  -o-transform: translateY(110px) rotateX(-90deg);
-  transform: translateY(110px) rotateX(-90deg);
-  background-color: rgba(0, 0, 0, 0.712);
-}
-
-.service-box .service-icon .front-content {
-  position: relative;
-  top: 150px;
-  -webkit-transform: translateY(-50%);
-  -moz-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  -o-transform: translateY(-50%);
-  transform: translateY(-50%);
-  color: black;
-  font-weight: bolder;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-}
-
-/* kas */
-
-.service-box .service-icon .front-content i {
-  font-size: 28px;
-  color: rgba(0, 0, 0, 0);
-  font-weight: normal;
-}
-
-.service-box .service-content p {
-  font-size: 20px;
-  color: #ddd9d9;
-  margin: 0;
-}
-
-.yellow {
-  background-image: url("../imgs/plates.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 100vh;
-  place-items: center;
-}
-
-/* To make flip  */
-
-.service-box:hover .service-icon {
-  opacity: 0;
-  -webkit-transform: translateY(-110px) rotateX(90deg);
-  -moz-transform: translateY(-110px) rotateX(90deg);
-  -ms-transform: translateY(-110px) rotateX(90deg);
-  -o-transform: translateY(-110px) rotateX(90deg);
-  transform: translateY(-110px) rotateX(90deg);
-}
-
-/* To Show the result flip */
-
-.service-box:hover .service-content {
-  opacity: 1;
-  -webkit-transform: rotateX(0);
-  -moz-transform: rotateX(0);
-  -ms-transform: rotateX(0);
-  -o-transform: rotateX(0);
-  transform: rotateX(0);
-}
-
-.container-tut {
-  display: block;
-  /* background-color: darkred; */
-  margin-left: 10p;
-}
 #aboutUs-info {
   margin-left: 20px;
   margin-top: 20px;
   text-align: left;
 }
+
 .aboutustitle {
   font-size: 30px;
   text-align: left;
   font-weight: bold;
 }
+
 .aboutusinfo {
   font-size: 25px;
 }
 
-
-
-
-#new{
-  
-  position:absolute;
+#new {
+  /* position:absolute; */
   margin-right: 10%;
- margin-left: 10%;
- 
+  margin-left: 10%;
 }
 
-.nam{
+.nam {
   /* font-family: 'Zen Tokyo Zoo', cursive; */
   font-family: 'Staatliches', cursive;
-  text-align:center;
-  display:inline-block;
-  list-style:none;
-  position:relative;
-  border:solid 12px #fff;
-  background:rgb(255, 255, 255);
-  box-shadow:0 0 15px 0px rgb(40, 22, 197);
-  transition:all 1s ease;
-  -o-transition:all 1s ease;
-  -moz-transition:all 1s ease;
-  -webkit-transition:all 1s ease;
-  top:50px;
+  text-align: center;
+  display: inline-block;
+  list-style: none;
+  position: relative;
+  border: solid 12px #fff;
+  background: rgb(255, 255, 255);
+  box-shadow: 0 0 15px 0px rgb(40, 22, 197);
+  transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -webkit-transition: all 1s ease;
+  top: 50px;
   border-radius: 8px;
-
 }
 
-
-.nam:hover{
-  top:0px;
-  opacity:0.5;
+.nam:hover {
+  top: 0px;
+  opacity: 0.5;
 }
 
-
-.par{
-  margin:-15px 0 0 0;
+.par {
+  margin: -15px 0 0 0;
   font-size: 20px;
 }
 
-.light{
-  border-radius:50%;
-  position:absolute;
-  left:0;
-  right:0;
-  width:700px;
-  height:700px;
-  background:#fff;
-  filter:blur(100px);
-  opacity:0.3;
-  pointer-events:none;
-}
-
-/* totiral page */
-.body-tut {
-  padding: 20px;
-  font-family: Arial;
-}
-
-/* Center website */
-.main {
-  max-width: 1000px;
-  margin: auto;
-}
-
-h1 {
-  font-size: 50px;
-  word-break: break-all;
-}
-
-.row {
-  margin: 10px -16px;
-}
-
-/* Add padding BETWEEN each column */
-.row,
-.row > .column {
-  padding: 8px;
-  width: 100%;
-  border-radius: 5px;
-}
-
-/* Create four equal columns that floats next to each other */
-.column {
-  float: left;
-  width: 25%;
-}
-
-/* Clear floats after rows */ 
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Content */
-.content {
-  background-color: white;
-  padding: 10px;
-  border: 2px solid black;
-}
-
-/* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 900px) {
-  .column {
-    width: 50%;
-  }
-}
-
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .column {
-    width: 100%;
-  }
+.light {
+  border-radius: 50%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 700px;
+  height: 700px;
+  background: #fff;
+  filter: blur(100px);
+  opacity: 0.3;
+  pointer-events: none;
 }
