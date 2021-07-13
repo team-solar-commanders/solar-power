@@ -4,6 +4,11 @@ header {
   height: 85px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
+.logoHeaderImage {
+  /* background-color: white; */
+  width: 65px;
+  margin-left: 30px;
+}
 
 header nav ul li {
   display: inline-flex;
@@ -23,4 +28,5 @@ header nav ul {
 header h1 {
   display: inline-flex;
   margin: 30px;
+  font-size: 30px;
 }
