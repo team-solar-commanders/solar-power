@@ -3,6 +3,7 @@
    padding: 0px;
    box-sizing: border-box;
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   background-color: cornsilk;
  }
 
  .header1 {
@@ -232,10 +233,6 @@
    .column {
      width: 100%;
    }
- }
-
- #hrInFooter {
-   color: white;
  }
 
  #imageLogoBottom {

@@ -8,6 +8,7 @@ body {
   padding: 0px;
   box-sizing: border-box;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: cornsilk;
 }
 
 #DevImgSection {
@@ -204,9 +205,6 @@ ul li {
 }
 #imageLogoBottom {
   height: 180px;
-}
-#hrInFooter {
-  color: white;
 }
 #slideImagesDiv {
   margin-bottom: 90px;

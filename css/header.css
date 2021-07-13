@@ -17,6 +17,7 @@ header nav ul li a {
 header nav ul {
   float: right;
   display: inline-flex;
+  /* clear: both; */
 }
 
 header h1 {
