@@ -1,4 +1,26 @@
-*{
-    background-image: url(https://cdn.nanalyze.com/uploads/2017/12/Solar-Investment-Funds-Teaser.jpg);
+
+#Form{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScgOIQd6E8Fxy9_64wrenHqxEG-kzZsntSGg&usqp=CAU);
     background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    place-items: center;
+    overflow: hidden;
+
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+   background-color: gray;
+    font-weight:bolder ;
+    color: orange;
+
+}
+
+
+section h3{
+    font-family:Georgia, 'Times New Roman', Times, serif ;  
+    font-weight:bolder ; 
+    color: orange;
 }
