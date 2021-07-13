@@ -9,6 +9,13 @@ header {
   width: 65px;
   margin-left: 30px;
 }
+.headerLinkInFormPage {
+  margin-top: 15px;
+}
+.headerLogoLink {
+  text-decoration: none;
+  color: white;
+}
 
 header nav ul li {
   display: inline-flex;
