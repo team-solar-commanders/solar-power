@@ -148,10 +148,12 @@ ul li {
   font-size: 30px;
   text-align: left;
   font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .aboutusinfo {
   font-size: 25px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 #new {
