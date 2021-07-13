@@ -4,6 +4,18 @@ header {
   height: 85px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
+.logoHeaderImage {
+  /* background-color: white; */
+  width: 65px;
+  margin-left: 30px;
+}
+.headerLinkInFormPage {
+  margin-top: 15px;
+}
+.headerLogoLink {
+  text-decoration: none;
+  color: white;
+}
 
 header nav ul li {
   display: inline-flex;
@@ -15,6 +27,7 @@ header nav ul li a {
   text-decoration: none;
 }
 header nav ul {
+  margin-top: 15px;
   float: right;
   display: inline-flex;
   /* clear: both; */
@@ -23,4 +36,5 @@ header nav ul {
 header h1 {
   display: inline-flex;
   margin: 30px;
+  font-size: 30px;
 }

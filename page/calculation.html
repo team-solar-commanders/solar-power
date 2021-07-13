@@ -11,14 +11,18 @@
     <link rel="stylesheet" href="../css/header.css">
     <link rel="stylesheet" href="../css/calc.css">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
     <header>
         <nav>
-            <h1>
+            <a class="headerLogoLink" href="../index.html"><h1>
                 SOLAR POWER
-            </h1>
+            </h1></a>
 
             <ul>
                 <li><a href="../index.html">Home</a></li>
@@ -38,20 +42,14 @@
     </div>
     <main>
         <div id="all">
-            <div id="card">INSTRUCTIONS AND INFORMATIONS</div>
-            <div id="card1"> <span class="fill-bottom-right">The main target of using PV panels is to have a sustainable
-                    system with a greate cost
-                    effectiveness. So, The benefits of using ON GRID system is to have a continuous power supply and it
-                    is
-                    easy to install The below function calculation is based on the country of Jordan (the average sun
-                    hours
-                    per month)
-                    To get started with this form, you need to look at your lastest electric bill and pick the
-                    amount of the kilowatts.hour.
-                    Write the amount of kilowatts in the below box </span>
+            <h1 id="card">INSTRUCTIONS AND INFORMATIONS</h1>
+            <div id="card1"> <span class="fill-bottom-right">The main target of using PV panels is to have sustainable system with a greate cost effectiveness. So, The benefits of using ON GRID system is to have a continuous power supply and it is easy to install The below function calculation is based on the country of Jordan (the average sun hours per month) To get started with this form, you need to look at your lastest electric bill and pick the amount of the kilowatts.hour. Write the amount of kilowatts in the below box </span>
             </div>
-            <h1>Calculation Forms</h1>
-            <form id="solarForm">
+        </div>
+        <h1>Calculation Form and Results</h1>
+          
+        <div>
+            <form id="solarForm" class="box">
                 <fieldset>
                     <legend>Watts Calculation</legend>
                     <label for="numberOfWatt">The amount of usage KW per month</label>
@@ -61,12 +59,13 @@
 
                 </fieldset>
             </form>
-            <div id="result">
-
-            </div>
+            <div class="box2" id="result"></div>
+        </div>
+    
             <!-- =========================================== -->
-            <section id="newPrice">
-                <form id="bestPrice">
+            
+            <div >
+                <form id="bestPrice" class="box">
                     <fieldset>
                         <legend>Calculation based on your budget</legend>
                         <label for="yourAmount">Your budget in Jordanian Dinar</label>
@@ -76,9 +75,11 @@
 
                     </fieldset>
                 </form>
-                <div id="result1"></div>
+                
+                <div class="box2" id="result1"></div>
+            </div>
+        
 
-            </section>
     </main>
     <footer>
         <div>
