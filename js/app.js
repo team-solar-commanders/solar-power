@@ -32,17 +32,18 @@ function handleSubmit(event) {
     let i = (newNumber / 30) / 4 * 1.25;
     let p = (newNumber / 41);
     let a = p * 2;
+    let c = s * 850;
 
 
     let dv = document.getElementById('result');
     dv.textContent = "";
     if (350 < newNumber) {
-        dv.textContent = ('Your facility need a solar system size of ' + Math.round(s * 100.0) / 100.0 + ' KW with an inverter of ' + Math.round(i * 100.0) / 100.0 + ' KW and ' + Math.round(p) + ' modules covering ' + Math.round(a) + ' square meter.');
+        dv.textContent = ('Your facility need a solar system size of ' + Math.round(s * 100.0) / 100.0 + ' KW with an inverter of ' + Math.round(i * 100.0) / 100.0 + ' KW and ' + Math.round(p) + ' modules covering ' + Math.round(a) + ' square meter.' + 'with an estimated price of ' + Math.round(c) + ' Jordanian Dinar.');
 
 
 
     } else {
-        dv.textContent = ("your facility does't need any solar panel");
+        dv.textContent = ("your facility does't need any solar panel.");
 
     }
 
