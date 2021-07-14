@@ -222,7 +222,14 @@ td {
   float: left;
   border: 10px sloid black;
 }
-
+.inner6{
+  background-color: #4f647718;
+  width: 47.7%;
+  margin: 10px;
+  float: left;
+  border: 10px sloid black;
+  height: 670px;
+}
 /* footer */
 
 #imageLogoBottom {

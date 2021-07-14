@@ -6,8 +6,9 @@ header {
 }
 .logoHeaderImage {
   /* background-color: white; */
-  width: 65px;
-  margin-left: 30px;
+  width: 140px;
+  margin-left: 4px;
+  margin-top: -11px;
 }
 .headerLinkInFormPage {
   margin-top: 15px;
