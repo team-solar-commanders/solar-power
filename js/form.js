@@ -160,12 +160,12 @@ function show() {
   field.setAttribute("id", "fieldset");
   let legend = document.createElement("legend");
   field.appendChild(legend);
-  legend.textContent = "enter your survey";
+  legend.textContent = "SURVEY FORM";
   let label1 = document.createElement("label");
   field.appendChild(label1);
   label1.setAttribute("for", "first");
   label1.setAttribute("class", "label");
-  label1.textContent = "name ";
+  label1.textContent = "Name ";
   let input1 = document.createElement("input");
   label1.appendChild(input1);
   input1.setAttribute("type", "text");
@@ -182,7 +182,7 @@ function show() {
   let input2 = document.createElement("input");
   label2.appendChild(input2);
   input2.setAttribute("type", "text");
-  input2.setAttribute("placeholder", "location");
+  input2.setAttribute("placeholder", "Location");
   input2.setAttribute("id", "second");
 
   let br7 = document.createElement("br");
@@ -191,7 +191,7 @@ function show() {
   field.appendChild(label6);
   label6.setAttribute("for", "feedback");
   label6.setAttribute("class", "label6");
-  label6.textContent = "give us any thing you would like to add";
+  label6.textContent = "Describe your PV system";
   let feedback = document.createElement("textarea");
   label6.appendChild(feedback);
   feedback.setAttribute("id", "feedback");
@@ -200,7 +200,7 @@ function show() {
   let rate = document.createElement("p");
   field.appendChild(rate);
   rate.setAttribute("id", "rateid");
-  rate.textContent = "how do you rate your pv system";
+  rate.textContent = "How is your satisfaction about it";
 
   let stars = document.createElement("div");
   field.appendChild(stars);
