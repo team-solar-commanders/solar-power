@@ -14,6 +14,7 @@ body {
 #DevImgSection {
   margin: 0 auto;
   margin-top: 30px;
+  margin-left: 185px;
   margin-bottom: 940px;
   width: 75%;
 }
@@ -140,21 +141,30 @@ ul li {
   color: #1a1a1a;
 }
 
-#aboutUs-info {
+/* #aboutUs-info {
   margin-left: 12%;
   text-align: center;
-  width: 75%;
   margin-top: 20px;
-}
+  margin-bottom: 40px;
+} */
 
 .aboutustitle {
+  display: block;
   font-size: 30px;
-  text-align: left;
+  margin-bottom: 20px;
+  text-align: center;
   font-weight: bold;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
+.aboutustitle h1 {
+  text-align: center;
+}
 
 .aboutusinfo {
+  margin-bottom: 40px;
+  width: 75%;
+  margin-left: 12.5%;
+  text-align: center;
   font-size: 25px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
